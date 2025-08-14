@@ -5,10 +5,6 @@
 #include <stddef.h>
 #include <stdint.h>
 
-typedef enum
-{
-    OP_CONSTANT,
-    OP_RETURN,
-} OpCode;
+#define DEBUG_TRACE_EXECUTION
 
 #endif
