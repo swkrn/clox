@@ -7,3 +7,6 @@ TARGET = clox
 
 $(TARGET): $(OBJ)
 	$(CC) $(OBJ) -o $(TARGET)
+
+clean:
+	rm -rf $(OBJ) $(TARGET)
